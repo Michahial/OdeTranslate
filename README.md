@@ -2,14 +2,12 @@
 
 🎬 Video Translation with Synchronized Audio 🌐
 
-SonyTranslate is a powerful and user-friendly web application that allows you to easily translate videos into different languages. This repository hosts the code for the SonyTranslate web UI, which is built with the Gradio library to provide a seamless and interactive user experience.
+One Digital Translate is a powerful and user-friendly web application that allows you to easily translate videos into different languages. This repository hosts the code for the One Digital Translate web UI, which is built with the Gradio library to provide a seamless and interactive user experience.
 
 
 | Description | Link |
 | ----------- | ---- |
 | 📙 Colab Notebook | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/R3gm/SoniTranslate/blob/main/SoniTranslate_Colab.ipynb) |
-| 🎉 Repository | [![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-black?style=flat-square&logo=github)](https://github.com/R3gm/SoniTranslate/) |
-| 🚀 Online DEMO | [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/r3gm/SoniTranslate_translate_audio_of_a_video_content) |
 
 ## SonyTranslate's web UI, which features a browser interface built on the Gradio library.
 ![image](https://github.com/R3gm/SoniTranslate/assets/114810545/0d71fbf4-e9f0-4f8f-944e-8f3f1ea6a019)
@@ -77,43 +75,32 @@ SonyTranslate is a powerful and user-friendly web application that allows you to
 | si            | Sinhala    |
 | su            | Sundanese  |
 
-## Example:
-
-### Original audio
-
-https://github.com/R3gm/SoniTranslate/assets/114810545/db9e78c0-b228-4e81-9704-e62d5cc407a3
-
-
-
-### Translated audio
-
-https://github.com/R3gm/SoniTranslate/assets/114810545/6a8ddc65-a46f-4653-9726-6df2615f0ef9
 
 
 ## Colab Runtime
 
-To run SoniTranslate using Colab Runtime: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/R3gm/SoniTranslate/blob/main/SoniTranslate_Colab.ipynb)
+To run One Digital Translate using Colab Runtime: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/R3gm/SoniTranslate/blob/main/SoniTranslate_Colab.ipynb)
 
 ## Install Locally (Installation tested in Linux)
 
 ### Before You Start
 
-Before you start installing and using SoniTranslate, there are a few things you need to do:
+Before you start installing and using One Digital Translate, there are a few things you need to do:
 
 1. Install the NVIDIA drivers for CUDA 11.8.0, NVIDIA CUDA is a parallel computing platform and programming model that enables developers to use the power of NVIDIA graphics processing units (GPUs) to speed up compute-intensive tasks. You can find the drivers [here](https://developer.nvidia.com/cuda-toolkit-archive). Follow the instructions on the website to download and install the drivers.
 2. Accept the license agreement for using Pyannote. You need to have an account on Hugging Face and `accept the license to use the models`: https://huggingface.co/pyannote/speaker-diarization and https://huggingface.co/pyannote/segmentation
-3. Create a [huggingface token](https://huggingface.co/settings/tokens). Hugging Face is a natural language processing platform that provides access to state-of-the-art models and tools. You will need to create a token in order to use some of the automatic model download features in SoniTranslate. Follow the instructions on the Hugging Face website to create a token.
+3. Create a [huggingface token](https://huggingface.co/settings/tokens). Hugging Face is a natural language processing platform that provides access to state-of-the-art models and tools. You will need to create a token in order to use some of the automatic model download features in One Digital Translate. Follow the instructions on the Hugging Face website to create a token.
 4. Install [Anaconda](https://www.anaconda.com/). Anaconda is a free and open-source distribution of Python and R. It includes a package manager called conda that makes it easy to install and manage Python environments and packages. Follow the instructions on the Anaconda website to download and install Anaconda on your system.
 5. Install Git for your system. Git is a version control system that helps you track changes to your code and collaborate with other developers. You can install Git with Anaconda by running `conda install -c anaconda git -y` in your terminal (Do this after step 1 in the following section.). If you have trouble installing Git via Anaconda, you can use the following link instead:
    - [Git for Linux](https://git-scm.com/download/linux)
 
-Once you have completed these steps, you will be ready to install SoniTranslate.
+Once you have completed these steps, you will be ready to install One Digital Translate.
 
 ### Getting Started
 
-To install SoniTranslate, follow these steps:
+To install One Digital Translate, follow these steps:
 
-1. Create a suitable anaconda environment for SoniTranslate and activate it:
+1. Create a suitable anaconda environment for One Digital Translate and activate it:
 
 ```
 conda create -n sonitr python=3.10 -y
@@ -156,9 +143,9 @@ pip install -q TTS==0.21.1  --no-deps
 ```
 
 
-### Running SoniTranslate
+### Running One Digital Translate
 
-To run SoniTranslate locally, make sure the `sonitr` conda environment is active:
+To run One Digital Translate locally, make sure the `sonitr` conda environment is active:
 
 ```
 conda activate sonitr
@@ -170,14 +157,14 @@ Setting your Hugging Face token as an environment variable in Linux:
 export YOUR_HF_TOKEN="YOUR_HUGGING_FACE_TOKEN"
 ```
 
-Then navigate to the `SoniTranslate` folder and run either the `app_rvc.py`
+Then navigate to the `One Digital Translate` folder and run either the `app_rvc.py`
 
 ```
 python app_rvc.py
 ```
-When the `local URL` `http://127.0.0.1:7860` is displayed in the terminal, simply open this URL in your web browser to access the SoniTranslate interface.
+When the `local URL` `http://127.0.0.1:7860` is displayed in the terminal, simply open this URL in your web browser to access the One Digital Translate interface.
 
-### Stop and close SoniTranslate.
+### Stop and close One Digital Translate.
 
 In most environments, you can stop the execution by pressing Ctrl+C in the terminal where you launched the script `app_rvc.py`. This will interrupt the program and stop the Gradio app.
 To deactivate the Conda environment, you can use the following command:
@@ -190,7 +177,7 @@ This will deactivate the currently active Conda environment sonitr, and you'll r
 
 ### Starting Over
 
-If you need to start over from scratch, you can delete the `SoniTranslate` folder and remove the `sonitr` conda environment with the following set of commands:
+If you need to start over from scratch, you can delete the `One Digital Translate` folder and remove the `sonitr` conda environment with the following set of commands:
 
 ```
 conda deactivate
