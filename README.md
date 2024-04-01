@@ -1,4 +1,4 @@
-# 🎥 SoniTranslate 🈷️
+# 🎥 One Digital Translate
 
 🎬 Video Translation with Synchronized Audio 🌐
 
